@@ -60,7 +60,7 @@ class MainMenu:
         #self.exit_button_1_rect = self.exit_button_1.get_rect()
 
         pygame.mixer.music.load(r"Null Point.mp3")
-        pygame.mixer.music.set_volume(0.4)
+        pygame.mixer.music.set_volume(0.1)
         pygame.mixer.music.play(-1)
         self.sound_on = True
 
@@ -96,7 +96,7 @@ class MainMenu:
                     if play_button_rect.collidepoint(event.pos):
                         pygame.mixer.music.stop()
                         pygame.mixer.music.load("Mean Meteor.mp3")
-                        pygame.mixer.music.set_volume(0.4)
+                        pygame.mixer.music.set_volume(0.15)
                         pygame.mixer.music.play(-1)
                         GameLoop().run_game()  # Start the game loop
                         running = False  # Exit the menu
@@ -381,7 +381,7 @@ class GameLoop:
 
                 pygame.mixer.music.stop()
                 pygame.mixer.music.load("Mean Meteor.mp3")
-                pygame.mixer.music.set_volume(0.4)
+                pygame.mixer.music.set_volume(0.15)
                 pygame.mixer.music.play(-1)
 
                 self.wave_state = "BOSS"
@@ -401,7 +401,7 @@ class GameLoop:
 
                 pygame.mixer.music.stop()
                 pygame.mixer.music.load("Sunny-side Supernova (PYGAME FINAL PROJECT BOSS OST- PROPERTY OF W.THIRABORWORNSAKUL).mp3")
-                pygame.mixer.music.set_volume(0.4)
+                pygame.mixer.music.set_volume(0.15)
                 pygame.mixer.music.play(-1)
 
                 self.wave_state = "MOODENG"
