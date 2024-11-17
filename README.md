@@ -8,3 +8,12 @@ tutorial - Weraphat Thiraborwornsakul
 Mean Meteor - Weraphat Thiraborwornsakul
 
 Sunny-side Supernova - Weraphat Thiraborwornsakul
+
+
+Project by: กลุ่มวีชิมิชิมิ
+---
+สมาชิกกลุ่ม:
+
+1. นายศุภฤกษ์ วศินนิติวงศ์
+2. นายอทิปัน
+3. นายวีระพัด
